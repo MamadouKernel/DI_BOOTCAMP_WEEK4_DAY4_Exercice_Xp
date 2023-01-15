@@ -1,0 +1,42 @@
+.form-card {
+    box-sizing: border-box;
+    width: 50%;
+    height: 60vh;
+    margin: 20px auto;
+    padding: 10px 30px;
+    box-shadow: rgb(138, 132, 132) 4px 4px 20px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .form-group {
+    margin: 10px auto;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  input, textarea {
+    width: 50%;
+    height: 3vh;
+    border-radius: 10px;
+    border : 1px solid gray
+  }
+
+  .action-buttons {
+    width: 100%;
+  }
+
+  button {
+    display: block;
+    margin: 20px auto;
+    width: 80%;
+    height: 4vh;
+    background-color: dodgerblue;
+    color:white;
+    border-radius: 10px;
+    border: none;
+  }
